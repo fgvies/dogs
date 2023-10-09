@@ -1,0 +1,64 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 250px;
+  color: rgb(255, 255, 255);
+  margin: 0px 12.5px 0px 12.5px;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 0 20px 0px hsl(0, 0%, 20%);
+}
+
+.cardContenido {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 65%;
+  width: 280px;
+  height: 75px;
+  font-size: 10px;
+  font-weight: lighter;
+  color: #e4e4ee;
+  background-color: rgb(2, 0, 20);
+  opacity: 0.75;
+  padding: 10px;
+  text-decoration: none;
+  z-index: +100;
+}
+
+.cardDog {
+  height: 25px;
+  font-size: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  text-transform: uppercase;
+  top: -45%;
+  font-weight: 300;
+}
+
+.infoDog {
+  position: absolute;
+  top: 30%;
+  width: 280px;
+}
+.cardTemperamentTitle {
+  font-weight: 500;
+  top: -20%;
+}
+
+.imagenFondo {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  filter: contrast(125%);
+}

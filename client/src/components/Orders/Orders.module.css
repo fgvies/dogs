@@ -1,0 +1,60 @@
+.containerOrder {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #e4e4e4;
+  font-size: 14px;
+  width: 250px;
+  height: 30px;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  z-index: 100;
+  left: -56px;
+}
+
+.controlOrder {
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #e4e4e4;
+  border: 2px solid #e4e4e4;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: 500;
+  padding: 5px;
+  margin: 5px;
+  font-size: 10px;
+}
+
+.orderName {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.orderWeight {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.labelSelector {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: #e4e4e4;
+  font-size: 10px;
+  width: 200px;
+}

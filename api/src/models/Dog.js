@@ -7,10 +7,9 @@ module.exports = (sequelize) => {
     "dog",
     {
       id: {
-        type: DataTypes.STRING,
-        allowNull: false,
-        unique: true,
+        type: DataTypes.UUID,
         primaryKey: true,
+        defaultValue: DataTypes.UUIDV4,
       },
       image: {
         type: DataTypes.STRING,
@@ -21,14 +20,23 @@ module.exports = (sequelize) => {
         allowNull: false,
       },
       height: {
-        type: DataTypes.FLOAT,
+        type: DataTypes.STRING,
         allowNull: true,
       },
       weight: {
-        type: DataTypes.FLOAT,
+        type: DataTypes.STRING,
         allowNull: false,
       },
+      life_span:{
+        type: DataTypes.STRING,
+        allowNull: false
+      },
+      created:{
+        type:DataTypes.BOOLEAN,
+        defaultValue: true,
+      }
     },
+
     { timestamps: false }
   );
 };

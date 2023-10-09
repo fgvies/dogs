@@ -1,0 +1,22 @@
+.containerHome {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 625px;
+  width: 99%;
+  margin: 5px;
+}
+
+.selectors {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 35px;
+  width: 84%;
+}
+

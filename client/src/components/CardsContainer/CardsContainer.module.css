@@ -1,0 +1,16 @@
+.containerAll {
+  width: 1350px;
+  height: 550px;
+  display: flex;
+  flex-direction: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff10;
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+}

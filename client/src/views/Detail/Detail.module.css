@@ -1,0 +1,159 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.detailContainer {
+  width: 300px;
+  height: 70%;
+  top: 12.5%;
+  left: 37.5%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  filter: contrast(125%);
+  border-radius: 10px;
+  background-color: #ffffff10;
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  overflow: hidden;
+  cursor: pointer;
+  padding: 25px;
+}
+
+.detailImage {
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+  position: relative;
+  filter: contrast(125%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.detailName {
+  width: 300px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.height {
+  color: white;
+  margin: 5px;
+  font-weight: 400;
+}
+
+.weight {
+  color: white;
+  margin: 5px;
+  font-weight: 400;
+}
+
+.lifespan {
+  color: white;
+  margin: 5px;
+  font-weight: 400;
+}
+
+.temperamentsTitle {
+  color: white;
+  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.temperamentsContent {
+  color: white;
+  margin: 5px;
+  margin-bottom: 20px;
+  width: 275px;
+  height: 35px;
+  font-weight: 400;
+}
+
+.buttonClose {
+  position: relative;
+  width: 300px;
+  height: 35px;
+  background-color: rgb(10, 10, 10);
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  top: 0%;
+  left: -12%;
+}
+
+.linkClose {
+  width: 250px;
+  height: 35px;
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+}
+
+.Loading {
+  position: absolute;
+  display: flex;
+  left: 47.5%;
+  top: 47.5%;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .detailContainer {
+    width: 90%;
+    height: auto;
+    top: auto;
+    left: auto;
+    margin: 10px;
+  }
+
+  .detailImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .detailName {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .detailContainer {
+    width: 90%;
+    height: auto;
+    top: auto;
+    left: auto;
+    margin: 10px;
+  }
+
+  .detailImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .detailName {
+    width: 100%;
+  }
+}
